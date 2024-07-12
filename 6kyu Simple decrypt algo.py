@@ -2,7 +2,7 @@ import re
 
 
 def decrypt(test_key):
-    clear_str = re.sub('[^a-z]', '', test_key)
+    clear_str = re.sub('[^a-z]', '', test_key)  # оставляем только буквы
     dict = {}
     new_str = []
     for i in clear_str:
