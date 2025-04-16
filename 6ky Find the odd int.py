@@ -35,7 +35,6 @@ print(find_it2(seq))
 
 
 seq = [0, 1, 0, 1, 0]
-dict = {}
 
 
 def find_it2(seq):
@@ -44,4 +43,6 @@ def find_it2(seq):
             return i
 
 
+for i in seq:
+    print(i)
 print(find_it2(seq))
